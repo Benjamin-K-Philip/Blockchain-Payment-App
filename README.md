@@ -1,5 +1,4 @@
-# Blockchain-Payment-App
-OOP Project
+# OOP Project
 
  # Blockchain Payment App
 A Java-based console application that simulates a blockchain-style payment system using OOP concepts like Inheritance, Polymorphism, Interfaces, Encapsulation, Method Overriding, Exception Handling and GUI components.
