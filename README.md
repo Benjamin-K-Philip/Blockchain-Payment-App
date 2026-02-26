@@ -18,4 +18,8 @@ A Java-based console application that simulates a blockchain-style payment syste
 - logs – log or output files.
 - utils – helper/utility classes.
 
+## Output of code
+<img width="1052" height="614" alt="image" src="https://github.com/user-attachments/assets/f33f6647-0274-4987-8805-b0a26200eb36" />
+
+
 
