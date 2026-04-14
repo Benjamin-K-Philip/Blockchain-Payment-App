@@ -45,6 +45,7 @@ The code serves as a practical application of major OOP principles: <br>
     
   - **Exception Handling:** Custom classes such as InsufficientBalanceException and InvalidAddressException are used to manage errors gracefully, allowing the GUI to show user-friendly messages instead of crashing 
 
+---
 
 ## Features
 - Create user accounts and manage balances.
