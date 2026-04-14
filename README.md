@@ -7,10 +7,10 @@ A Java-based console application that simulates a blockchain-style payment syste
 The Blockchain-Based Family Payment & Vault System is designed using modular Object-Oriented Programming (OOP) principles in Java. The code is organized into specific modules to handle core logic, data models, and user interfaces.
 
 ➤ **Core Architecture and Modules** <br>
-The application is divided into several key modules that manage different aspects of the system:
-     - **Core Module:** This includes BlockchainService.java, which uses the Singleton pattern to ensure only one instance of the service manages all users, transactions, and vaults. It also contains Start.java for launching the GUI and BlockchainPaymentApp.java for a console-based interface.
+The application is divided into several key modules that manage different aspects of the system: <br>
+   - **Core Module:** This includes BlockchainService.java, which uses the Singleton pattern to ensure only one instance of the service manages all users, transactions, and vaults. It also contains Start.java for launching the GUI and BlockchainPaymentApp.java for a console-based interface.
 
-Models Module: Contains data representations such as User.java (base class), BasicUser.java, and Guardian.java. It also includes classes for Transaction.java, FamilyVault.java, and SavingsPlan.java.
+ - **Models Module:** Contains data representations such as User.java (base class), BasicUser.java, and Guardian.java. It also includes classes for Transaction.java, FamilyVault.java, and SavingsPlan.java.
 
 Services Module: Provides specialized functionality like ExchangeRateService.java for currency lookups and EmailNotifier.java for transaction notifications.
 
