@@ -53,6 +53,7 @@ The code serves as a practical application of major OOP principles: <br>
 - Log transactions and view transaction history.
 - Demonstrates OOP concepts: classes, interfaces, exceptions, packages.
 
+---
 
 ## Project Structure
 - core – main business logic and payment processing.
