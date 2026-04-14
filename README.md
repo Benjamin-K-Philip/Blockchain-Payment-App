@@ -1,8 +1,9 @@
-# OOP Project
+<img width="1127" height="266" alt="image" src="https://github.com/user-attachments/assets/5ca61d14-a9b9-4318-8b00-3dc93e69c82d" /># OOP Project
 
  # Blockchain Payment App
 A Java-based console application that simulates a blockchain-style payment system using OOP concepts like Inheritance, Polymorphism, Interfaces, Encapsulation, Method Overriding, Exception Handling and GUI components.
-<br>
+
+--- <!-- This statement is used for giving rule break -->
 
 ## How the Code Works
 The Blockchain-Based Family Payment & Vault System is designed using modular Object-Oriented Programming (OOP) principles in Java. The code is organized into specific modules to handle core logic, data models, and user interfaces.
@@ -64,6 +65,7 @@ The code serves as a practical application of major OOP principles: <br>
 - logs – log or output files.
 - utils – helper/utility **classes.**
 
+---
 
 ## Output of code
 
