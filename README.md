@@ -30,11 +30,13 @@ The main logic for sending money is handled by the sendMoney method in the Block
 
   - **Notification & History:** The transaction is marked as "SUCCESS," recorded in the transactionHistory, and all registered observers (like an email notifier) are alerted.
 
+
 ## Features
 - Create user accounts and manage balances.
 - Make payments between users with basic validation.
 - Log transactions and view transaction history.
 - Demonstrates OOP concepts: classes, interfaces, exceptions, packages.
+
 
 ## Project Structure
 - core – main business logic and payment processing.
