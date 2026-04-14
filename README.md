@@ -29,6 +29,21 @@ The main logic for sending money is handled by the sendMoney method in the Block
   - **Execution:** If all checks pass, the system deducts the total cost from the sender and adds the base amount to the recipient's balance.
 
   - **Notification & History:** The transaction is marked as "SUCCESS," recorded in the transactionHistory, and all registered observers (like an email notifier) are alerted.
+    
+
+➤ **Implementation of OOP Concepts** <br>
+
+The code serves as a practical application of major OOP principles: <br>
+
+  - **Inheritance:** The User class serves as a parent, providing common fields like name, wallet, and balance, which are inherited by BasicUser and Guardian.
+
+  - **Encapsulation:** Sensitive data like the balance is kept private and only accessible through public getters and setters with built-in validation.
+
+  - **Polymorphism & Method Overriding:** Subclasses override methods like calculateFee() to apply different rules at runtime without complex if-else logic.
+
+  - **Observer Pattern:** The system uses a TransactionObserver interface to allow external services, such as an EmailNotifier, to react to blockchain events without modifying the core service code.
+    
+  - **Exception Handling:** Custom classes such as InsufficientBalanceException and InvalidAddressException are used to manage errors gracefully, allowing the GUI to show user-friendly messages instead of crashing 
 
 
 ## Features
