@@ -6,7 +6,7 @@ A Java-based console application that simulates a blockchain-style payment syste
 ## How the Code Works
 The Blockchain-Based Family Payment & Vault System is designed using modular Object-Oriented Programming (OOP) principles in Java. The code is organized into specific modules to handle core logic, data models, and user interfaces.
 
-➤ **Core Architecture and Modules**
+➤ **Core Architecture and Modules:**
 The application is divided into several key modules that manage different aspects of the system:
    - **Core Module:** This includes BlockchainService.java, which uses the Singleton pattern to ensure only one instance of the service manages all users, transactions, and vaults. It also contains Start.java for launching the GUI and BlockchainPaymentApp.java for a console-based interface.
 
