@@ -14,7 +14,7 @@ The application is divided into several key modules that manage different aspect
 
   - **Services Module:** Provides specialized functionality like ExchangeRateService.java for currency lookups and EmailNotifier.java for transaction notifications.
 
-  - **UI Module:** Consists of BlockchainPaymentGUI.java, a Swing-based graphical interface with tabs for various features, and ConsoleUI.java for terminal interaction.
+  - **UI Module:** Consists of BlockchainPaymentGUI.java, a Swing-based graphical interface with tabs for various features, and ConsoleUI.java for terminal interaction. <br>
 
 
 ➤ **Core Logic and Transaction Flow** <br>
