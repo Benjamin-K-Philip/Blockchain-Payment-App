@@ -16,6 +16,19 @@ The application is divided into several key modules that manage different aspect
 
   - **UI Module:** Consists of BlockchainPaymentGUI.java, a Swing-based graphical interface with tabs for various features, and ConsoleUI.java for terminal interaction.
 
+
+➤ **Core Logic and Transaction Flow** <br>
+The main logic for sending money is handled by the sendMoney method in the BlockchainService class: <br>
+  - **Validation:** The system first checks if the recipient's wallet address is valid (at least 10 characters) and ensures the transfer amount does not exceed the sender's specific transaction limit.
+
+  - **Fee Calculation:** Using polymorphism, the system calculates a transaction fee based on the sender's user type (e.g., Basic or Premium).
+
+  - **Balance Check:** It verifies if the sender has enough funds to cover both the transaction amount and the calculated fee.
+
+  - **Execution:** If all checks pass, the system deducts the total cost from the sender and adds the base amount to the recipient's balance.
+
+  - **Notification & History:** The transaction is marked as "SUCCESS," recorded in the transactionHistory, and all registered observers (like an email notifier) are alerted.
+
 ## Features
 - Create user accounts and manage balances.
 - Make payments between users with basic validation.
