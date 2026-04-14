@@ -1,4 +1,6 @@
 # Blockchain Payment App
+
+## Description
 A Java-based console application that simulates a blockchain-style payment system using OOP concepts like Inheritance, Polymorphism, Interfaces, Encapsulation, Method Overriding, Exception Handling and GUI components.
 
 --- 
